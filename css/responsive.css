@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) and (min-width: 300px){
+    .head-context > h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .header-section {
+        padding: 100px 0px 0px 0px;
+    }
+
+    .trust-description > p {
+        word-spacing: 0px;
+        letter-spacing: 0px;
+        font-size: 11px;
+    }
+
+    .trust-description > img {
+        width: 24px;
+        height: auto;
+    }
+
+    .trust-content-icon {
+        gap: 12px;
+    }
+
+    .item-card-section {
+        padding: 0px 0px;
+    }
+
+    .card-top {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .trust {
+        margin-bottom: 30px;
+    }
+
+    .card-top-middle {
+        padding: 20px 0px 0px 0px;
+    }
+
+    h2.section-title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+
+
+@media only screen and (max-width: 360px) and (min-width: 300px){
+    .head-context > h1 {
+        font-size: 26px;
+        line-height: 40px;
+    }
+}

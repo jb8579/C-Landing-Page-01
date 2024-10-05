@@ -187,6 +187,10 @@ p.nav-text > img{
     padding: 30px 0px;
 }
 
+.card-top{
+    padding: 70px 0px 0px 0px;
+}
+
 .card-item-content {
     width: 100%;
     height: 440px;
@@ -205,7 +209,7 @@ p.nav-text > img{
     border-radius: 12px;
 }
 
-.card-image > img {
+.card-image > a > img {
     width: 100%;
     height: 160px;
 }
@@ -459,19 +463,88 @@ p.section-text{
 
 
 /* ----------------------------
-    Brand Start
-------------------------------- */
-
-/* ----------------------------
-    Brand End
-------------------------------- */
-
-
-
-/* ----------------------------
     Footer Start
 ------------------------------- */
+.footer-section {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+}
+    
+p.footer-p-a {
+    font-family: var(--font-1-open-sans);
+    font-size: 13px;
+    font-weight: var(--fw-400);
+    color: var(--light-green-text);
+    word-spacing: var(--word-spacing-2);
+    line-height: 22px;
+}
+  
+p.footer-disclaimer {
+    font-size: 15px;
+    font-weight: var(--fw-500);
+    color: var(--light-green-text);
+    word-spacing: var(--word-spacing-2);
+    line-height: 22px;
+    font-family: var(--font-1-open-sans);
+    margin: 30px 0px;
+}
 
+p.footer-disclaimer > img{
+    width: 50px;
+}
+
+p.footer-disclaimer> a{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+
+p.footer-disclaimer> a:hover{
+    color: #0eeb8f !important;
+    text-decoration: underline;
+}
+  
+p.footer-p-a > a{
+    color: #ffffff !important;
+    text-decoration: none;
+}
+  
+p.footer-p-a > a:hover {
+    color: #0eeb8f !important;
+    text-decoration: underline;
+}
+  
+.copyright-area {
+    padding: 0px 0px 40px 0px;
+}
+  
+.copyright-display {
+    text-align: center;
+}
+  
+.copyright-context > p {
+    font-family: var(--font-3-afacad);
+    font-size: 15px;
+    font-weight: var(--fw-500);
+    color: var(--light-green-text);
+    word-spacing: var(--word-spacing-2);
+    line-height: 22px;
+}
+  
+.copyright-context > p > a{
+    font-family: var(--font-3-afacad);
+    font-size: 18px;
+    font-weight: var(--fw-400);
+    color: var(--light-green-text);
+    word-spacing: var(--word-spacing-2);
+    line-height: 22px;
+    text-decoration: underline !important;
+    transition: all 0.3s ease-in-out;
+    letter-spacing: var(--letter-spacing-1);
+}
+  
+.copyright-context > p > a:hover{
+    color: #0eeb8f !important;
+}
 /* ----------------------------
     Footer End
 ------------------------------- */
